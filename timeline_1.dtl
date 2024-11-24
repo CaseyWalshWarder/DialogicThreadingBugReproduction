@@ -1,0 +1,4 @@
+#timeline_1
+timeline_1 a
+timeline_1 b
+[signal arg="load_second_scene"]

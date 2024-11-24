@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="DialogicThreadingBugReproduction"
+run/main_scene="res://first_scene.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -21,7 +22,10 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 [dialogic]
 
 directories/dch_directory={}
-directories/dtl_directory={}
+directories/dtl_directory={
+"timeline_1": "res://timeline_1.dtl",
+"timeline_2": "res://timeline_2.dtl"
+}
 
 [dotnet]
 

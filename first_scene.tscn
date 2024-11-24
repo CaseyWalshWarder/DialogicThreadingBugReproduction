@@ -1,3 +1,13 @@
-[gd_scene format=3 uid="uid://damwdlbhy6d13"]
+[gd_scene load_steps=2 format=3 uid="uid://damwdlbhy6d13"]
+
+[ext_resource type="Script" path="res://first_scene_script.gd" id="1_12y4v"]
 
 [node name="FirstScene" type="Node3D"]
+script = ExtResource("1_12y4v")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_right = 1149.0
+offset_bottom = 647.0
+text = "FirstScene"
